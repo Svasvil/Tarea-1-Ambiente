@@ -1,0 +1,99 @@
+:root{
+    --blanco: #ffffff;
+    --Azulrey: #0e1f53;
+    --Celeste: #62ABD9;
+    --Azulmedio: #032CA6;
+
+    --Fuente-Principal: 3.8rem; 
+}
+
+.Nav , .Nav a{
+    background-color: var(--Celeste);
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Nav {
+    display: flex;
+    flex-direction: column;
+}
+.Nav a:hover{
+    background-color: var(--Azulrey);
+}
+.main{
+    display: grid;
+    background-color: var(--Celeste);
+    width: 850px;
+    height: 600px;
+    border-radius: 15px;
+   margin-left: auto;
+     margin-right: auto;
+
+}
+
+.main h2{
+    text-align: center;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.izquierda {
+    flex: 1;
+    background-color: var(--Celeste);
+     height: 500px;
+    color: var(--blanco);
+    justify-content: center;
+    text-align: center;
+    min-width: 300px; 
+    border-bottom-right-radius:50px ;
+    border-top-right-radius:50px ;
+}
+
+.derecha {
+    flex: 1;
+    background-color: var(--blanco);
+    height: 500px;
+    min-width: 300px; 
+}
+
+.derecha h1 {
+    color: var(--Celeste);
+    font-size: 50px;
+    margin-left: 55px;
+    
+}
+
+.derecha p {
+    font-size: 50px;
+    margin-left: 1000px;
+}
+.hobbies ol {
+   font-size: 19px;
+   margin-left: 50px;
+
+}
+.FooterOut{
+    flex: 1;
+    background-color: var(--Celeste);
+    height: 100px;
+   width: 400px;
+    border-radius: 50px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.FooterOut h3{
+    padding-top: 30px;
+   margin-top: 40px;
+    color: var(--blanco);
+    text-align: center;
+}
